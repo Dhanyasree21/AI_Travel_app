@@ -8,8 +8,8 @@ if st.button('submit'):
   st.write(f"""
   AI APP
   --------------------------
-  Destination: {Destination}/n
-  Budget: {Budget}/n
-  Date: {Date}/n
-  Accomdation:{Accomdation}/n
+  Destination: {Destination}
+  Budget: {Budget}
+  Date: {Date}
+  Accomdation: {Accomdation}
            """)
