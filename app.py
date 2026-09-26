@@ -9,7 +9,10 @@ if st.button('submit'):
   AI APP
   --------------------------
   Destination: {Destination}
+  
   Budget: {Budget}
+  
   Date: {Date}
+  
   Accomdation: {Accomdation}
            """)
