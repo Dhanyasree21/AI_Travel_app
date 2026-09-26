@@ -16,3 +16,4 @@ if st.button('submit'):
   
   Accomdation: {Accomdation}
            """)
+  st.balloons()
