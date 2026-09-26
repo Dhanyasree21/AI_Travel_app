@@ -1,0 +1,15 @@
+import streamlit as st
+st.write('welcome to travel App!')
+Destination=st.text_input('Enter your travel destination:')
+Budget=st.number_input('Enter your budget:')
+Date=st.date_input('Enter your travel date:')
+Accomdation=st.selectbox('Enter yes if you need accomdation or no', 'yes','no')
+if st.button('submit'):
+  st.write(f"""
+  AI APP
+  --------------------------
+  Destination: {Destination}
+  Budget: {Budget}
+  Date: {Date}
+  Accomdation:{Accomdation}
+           """)
