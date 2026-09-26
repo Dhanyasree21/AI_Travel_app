@@ -1,5 +1,5 @@
 import streamlit as st
-st.write('welcome to travel App!')
+st.title('welcome to travel App!')
 Destination=st.text_input('Enter your travel destination:')
 Budget=st.number_input('Enter your budget:')
 Date=st.date_input('Enter your travel date:')
